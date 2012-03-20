@@ -38,6 +38,21 @@ catch has a five layer blog post.
 -Web Framework
 --Absolute bedrock - http request, cache responses, session handling, db access
 ---Very few of us live at this layer.
--
-
-
+-Building blocks
+--Nodes, fields, views, regions, blocks
+---thingies - yo
+---Clients don't really care if the site uses a block or a view, just that it works.
+-Building Tools
+--Things that build functionality.
+--field UI,drush, views UI, /admin/structure, features
+---It's easy to ignore maintenence of this layer.  This layer is the booster, it's critical, but disposible.
+---Features isn't something end users care about.
+-Features (not the module)
+--Discussion forums, wiki, photo gallery, surveys, my dashboard
+---Moderators, authors, maintainers.
+---We lack a lot of tools for site maintainers, administrative tasks.
+-Products
+--A website that can be handed off to someone.
+--The client's main concern.
+--Everything that matters, where the money is located.
+--OpenAtrium is an example of a product.
