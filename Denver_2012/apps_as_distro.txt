@@ -11,5 +11,3 @@ A way to control Drupal or steal from contributors.
 It's a module, or set of modules that build functionality.
 Features bundles functionality to implements functionality.
 Apps start as features, but add usability.
-
-
