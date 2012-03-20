@@ -49,6 +49,7 @@ catch has a five layer blog post.
 ---Features isn't something end users care about.
 -Features (not the module)
 --Discussion forums, wiki, photo gallery, surveys, my dashboard
+---Distinct and unique(usually) to the project.
 ---Moderators, authors, maintainers.
 ---We lack a lot of tools for site maintainers, administrative tasks.
 -Products
@@ -56,3 +57,40 @@ catch has a five layer blog post.
 --The client's main concern.
 --Everything that matters, where the money is located.
 --OpenAtrium is an example of a product.
+
+The pitfall is creating Features when you think you're creating Building Blocks.
+
+You need to know where you are in the burrito.  It frees you to focus, which improves quality.
+
+Separation helps us future proof
+
+Features bubble, hacks trickle.
+
+*Laws for Layers*
+
+D.O. projects aren't modules.
+
+Separating UI from functionality is a good example.
+
+Forms aren't APIs, we need api to make it more maintainable.
+
+Config is more than CRUD, it's the totality of how the module works.
+
+Ops and Actions, not Paths and Clicks
+
+Examples beat Assumptions - write examples that are disabled.
+
+Generic is hard! Take Small Bites.
+
+Forms, drush, tests, profiles.
+
+Mix to Optimise, Isolate to Reuse.
+
+Where's Design? Everywhere!
+
+Be the change you wish to see in the world.
+
+Lots of moving parts, hello collisions
+better separration helps cooperation
+framework, building blocks config tools, features, products
+isolate to reuse, mix to optimise.
