@@ -1,0 +1,43 @@
+Taming the Burrito: Understanding the Five Layers of Drupal
+
+eaton - Lullabot
+
+Haters gonna hate
+
+It's easy as an early adopter to think of Drupal as a simple framework.
+
+*There is no burrito, so the burrito analogy is gone.*
+
+Distinct layers that work together.
+
+*How do I make my code work better?*
+
+Most of the time, we talk about standards, db query.  This is not that talk.
+
+Solo context.
+
+Back in the day, Drupal had few simple layers.
+
+-Core
+-Contrib
+-Themes
+
+The contrib layer got complicated, the .API module that allowed crazy extensions of Drupal.
+Image module and Views are the poster children for this pure construction kit modules.
+
+Meta modules like Features added another layer of complexity.
+
+hook hook alter - was a little awkward.
+
+Code maintenance is becoming cumbersome.  "Hell is other people."
+
+Hell is other people's cache tables.
+
+catch has a five layer blog post.
+
+-Web Framework
+--Absolute bedrock - http request, cache responses, session handling, db access
+---Very few of us live at this layer.
+-
+
+
