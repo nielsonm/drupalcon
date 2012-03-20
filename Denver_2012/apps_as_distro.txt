@@ -6,8 +6,27 @@ febbraro, walkah
 
 A way to control Drupal or steal from contributors.
 
-*What an ap is*
+*What an app is*
 
 It's a module, or set of modules that build functionality.
 Features bundles functionality to implements functionality.
 Apps start as features, but add usability.
+
+Billie Mays as an example, make it easy.  Plug and play.
+
+*Audience Apps and Distros*
+Users
+-Focus on end users, make specific functionality assumptions based on your vertical.
+Devs
+-Easier to integrate since the use case is so narrow.
+
+Options and configuration are another feature for apps.
+
+*Open App Standard*
+A method of creating apps that is open and usable by an appserver.
+
+*Why Apps*
+Discoverability - apps console - Level ten
+Installation - Make it easier to get ppl to build and experiment, click and install.
+
+Admin power tools can be very powerful.
