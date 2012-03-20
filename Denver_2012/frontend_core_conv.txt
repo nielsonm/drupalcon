@@ -1,0 +1,64 @@
+Front End Performance Improvements
+mfer - HP Cloud
+
+slideshare.net/mattfarina for the slides
+
+*Why is front end performance important*
+
+Numerous DrupalCon Sessions
+
+MemCache, APC, etc.
+
+D7 works well with reverse proxies
+
+HTTP Archive now caches http requests.
+
+87% of time spent on the top 50K sites is on front end.
+
+On mobile the gap is even wider (97%).
+
+Yahoo reports a 400 ms gap results in a 9% drop in traffic.
+
+In the post PC world, everyone is on a mobile.
+
+SPDY, 4G are also working on front end performance.
+
+85% of mobile users expect mobile sites to load as fast as the site on a desktop.
+
+*Stuff we do well*
+
+Lossless img compression
+Aggregate js and css.
+Extendable image handling.
+
+*Let's get technical*
+
+Doubling the bandwidth only yields a 20% improvement load time.
+Mobile latency can be 2-10x as much as ethernet.
+TCP slow start is very slow for small files, especially for mobile.
+Browsers only have 6 parallel connections.  Android 2.2 only has 4.
+Smaller files, less waiting, faster page load.
+JS on mobile is up to 10x as slow as desktop.
+1GB is the high end of RAM for mobile.
+
+*Let's get busy*
+
+Minify core JS.
+drupal.js at 24% of size.
+UglifyJS is 7% smaller than jsmin-php plus it's actively maintained.
+It would be best to ship with minified code.
+Minification is mostly about the long tail.
+
+*Making JS and CSS handling pluggable*
+
+Store css and js locally, less bandwidth.
+Evaluating jQuery is another bottleneck, use lazy evaluation, this is especially true on overlay.
+BundleCache is a module that bundles certain modules css and js in a more sensible way.
+Assetic is an asset manangement framework, the creator has agreed to help intergrate assetic with Drupal.
+80% of css isn't being used.  In the community, we commonly override, not overwrite.
+Why not exclude css that isn't being used.
+
+
+
+
+
