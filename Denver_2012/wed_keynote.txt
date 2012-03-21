@@ -1,0 +1,8 @@
+Mitchell Baker
+Mozilla
+
+New video format, sounds more like "video".
+
+Boot to gecko, linux phone made with Telefonica.
+
+Mozilla personas as an alternate for OpenID.  Work with email providers to have email address equal identity. Brilliant. But why not renovate OpenID?
