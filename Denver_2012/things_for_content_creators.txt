@@ -1,3 +1,34 @@
 Five things we need to create an awesome experience for content creators
 
 chrisstrahl, webchick
+
+*About*
+
+This session is not about devs, themers, and PMs.
+
+This is about authors and content creators.
+
+Drupal out of the box is pretty basic.
+
+Drupal gardens provides WYSIWYG, media, gallery.
+
+Drupal++ is functional, but not mind blowing.
+
+*Competitors*
+Squiz allows editors to edit text inline.
+
+Plone is a CMS and a CMF, like Drupal.
+
+CQ5 is a proprietary editor focused CMS owned now by Adobe.
+
+Squarespace is a proprietary SAAS.
+
+All three allow inline editing and layout, with slick UI.
+
+*Top 5 things for content creators*
+
+-Real wysiwyg and inline editing
+-flexible layout tools
+-drag and drop everything
+-kick-ass media support
+-customized for any device
