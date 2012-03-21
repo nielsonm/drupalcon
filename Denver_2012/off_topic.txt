@@ -2,4 +2,13 @@ Cards Against Humanity
 
 Leave code in the submit handler
 The Drupal ecosystem
+Mobile friendly html 5
+Responsive layout
+Minified Aggregate
+Dynamic workflow
 
+
+
+Commerce
+
+Apologize to rszama for reopening the issue, ask how to proceed.
