@@ -1,12 +1,23 @@
-Cards Against Humanity
+Cards Against Humanity - DrupalCon edition
+*Questions*
+The keynote looks mediocre, it covers ____, skipping it for ___.
+Which session are you going to?
+What's for breakfast?
+The DrupalCon Party was brought to a sudden halt when ___.
 
+
+
+*Responses*
 Leave code in the submit handler
 The Drupal ecosystem
 Mobile friendly html 5
 Responsive layout
 Minified Aggregate
 Dynamic workflow
-
+Overpriced meals
+Generate client value
+Twitter spam on #DrupalCon
+Overly technical questions in Q and A.
 
 
 Commerce
