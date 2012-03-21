@@ -1,4 +1,24 @@
 I Just Want to Edit a Node
 robeano, stevector
 
+Two main questions:
+Workflow - lifeline of a node.
+Forward revisions - a public revision that will be updated at some later date.
 
+*D7 contrib*
+Core struggles with the concept of the forward revision.
+node save is called twice.
+
+What if D8 did all the handling for revisioning that contrib do now.
+
+*Workflow in core?*
+
+Could be.
+
+Complications include:
+-Definition in Workflow
+-Workflows across entity types
+-State could be an entity
+ Workbench Sprint Friday
+
+CRUD vs. CRAP
