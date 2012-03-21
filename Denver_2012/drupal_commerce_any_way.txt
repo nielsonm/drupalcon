@@ -2,4 +2,52 @@ Drupal Commerce: eCommerce Any Way You Need It
 rszrama
 
 
+We all have needs, especially our clients.
+*Introduction*
+Commerce Guys guy, from Greenville, SC and Louisville, KY.  Passionate for helping others succeed.i
+It's about passion and enjoying life.
+Commerce is located in Jackson,MI, moving to Ann Arbor.
 
+Our vision is for Drupal Commerce to be the number one open source eCommerce platform in the world...
+Powering truly flexible commerce.
+
+UC was designed as a product, Commerce is more of a framework and a product.
+Drupal Commerce is solving real world needs and bringing real profit to businesses around the world.
+
+
+
+*Installs*
+ioby.org is a crowd funding kickstarter for NYC.
+Coals2U - dynamic pricing via postal code, geolocation.
+Countryside - outdoor equipment with shipping, wishlists, reorders.
+
+*About Commerce*
+Bring as little code as possible to the project. Re-use contrib as much as possible.
+
+Drupal Commerce is an eCommerce framework, focusing on what you can -build- with it, not simply what you can do with it out of the box.
+
+Big flowchart, important to study.
+
+*Roadmap*
+
+It's about making UI easier. For the store administrator, the site user.
+
+DrupalCommerce.org redesign with -complete- documentation.
+
+Relaunch Commerce Kickstart to be a more polished point of entry for new users
+
+Commerce Kickstart BOF tomorrow from 2-3.
+
+Build a Drupal Commerce development and communication team working with rszrama.
+
+Provide an accessible team of experts for commerce.
+
+*Demo*
+
+Pineapple store makes a comeback.
+
+Donation type - store - config -line item types - add donation field to product.
+ Add to cart form settings checkbox.
+ store - product pricing rules - commerce line item - edit rules
+
+Commerce is working on a services resource.
