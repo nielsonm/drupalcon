@@ -1,0 +1,67 @@
+Drupalize your data, use entities
+fago
+
+Entity type - taxonomy term
+
+bundle - taxonomy
+
+Drupal core only provides get info and load functions.
+
+Entity API prvides 9 more functions.  Such as entity id, metadata wrapper
+
+Metadata wrapper can access and edit the entity properties.
+
+Property info
+Unified aaccess to entity data
+Validation
+
+Rules, OG, Commerce all use entity API.
+Entity tokens gives tokens to all entities.
+Entity views uses views just on the view object, independent of the db.
+
+*Providing an entity type*
+
+hook entity info
+
+hook schema
+
+*Exportable entities*
+Powerful but slghtly contreversial.
+
+*Example: profile2*
+
+profile2 has a CRUD API, field API
+Permissions and access control
+-Profile form and display are left to the site builder.
+AdminUI
+
+Use a NoSQL, Doctrine, PHPCR
+
+Remote entities - created from remote data.
+Data integration - create entities from external sources.
+
+*What does it buy us?*
+
+Classed CRUD API
+CRUD hooks
+Tokens
+Entity reference
+Rules, rules links
+Search API, views integration, RestWS
+
+*Drupalize your data*
+
+Google picasa entities
+-sandbox that creates entities based off of picasa photos.
+-Imgs are loaded dynamically from google's servers.
+-Entities are displayed in a view.
+-Albums and photos are both entities.
+
+If entities are not fieldable the id doesn't need to have an int ID.
+
+*Improvements*
+
+EFQ Views
+Read-only mode
+Generated display
+Generated form
