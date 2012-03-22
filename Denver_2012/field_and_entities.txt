@@ -1,2 +1,194 @@
 The Alice in Wonderland World of Fields and Entities
 KarenS
+
+Maintainer of Date and CCK.
+
+It's a topsy turvy world.
+
+*Everything is a node*
+4.5
+Page and story module were the only content types.
+More fields, write code.
+
+4.6
+Added flexinode.
+-It took off.
+
+4.7
+Just like 4.prev, but had CCK
+-Custom Content types
+-Custom fields
+
+Is everything a node?
+-What about comments or users?
+
+5 and 6
+No page and story modules
+Custom content types
+CCK provided custom fields.
+
+Everything is not a node, but fields on everything sounds nice.
+
+7
+Custom content types
+Custom fields
+Entity API
+
+nodes and users are different objects.
+
+There needs to be something deeper than nodes and users.
+
+Entities are fieldable.
+
+*What is an entity?*
+
+Standardized objects
+
+key
+label
+base table
+properties
+field integration
+-Is it or isn't it fieldable.
+caching
+bundles
+revisions
+URI callback
+load calback
+view callback
+form callback
+view modes
+-e.g. teaser vs. full view for nodes.
+translation handlers
+
+New APIs
+
+Field
+Entity
+EFQ
+Entity API (contrib)
+
+Core entities
+Node, user, term, comment
+
+Contrib entities
+File, block, profile, group
+
+*Why use entities?*
+
+Base table CRUD handled by entity API.
+Field CRUD handled by field API.
+Automatic Views integration
+
+*Down the rabbit hole*
+
+Terms can have terms.
+Enttities can have fields, and vice versa.
+
+Rethinking blocks - bean module.
+Rethinking user profiles - profile in d7 core is not the reccommended solution.
+
+Profile2 - profile is attached to a user, but is it's own object.
+Profile lite - add fields to user object and add categories.
+
+*Entity subsystems*
+
+Commerce
+
+OG - node groups, but now is it's own entity.
+
+Media
+
+*References*
+
+Entity reference
+
+Entity reference with OG.
+-Complete rewrite for 2.0.
+
+*Relation*
+
+Not only do I want to connect two entities, it also makes an entity with relation field (sibling, parent).
+
+*Registration*
+
+Manage registrations for any entities.
+
+*Embeddable*
+
+Embed a block in a user!
+
+*Utilities*
+
+Entity Cache
+Entity Cache Flush
+Cache Warmer
+-Slowly rebuilds cache after flush.
+
+*Entity translation*
+
+Field level translation.
+
+*Entity list*
+Views, EFQ
+
+*Building Entities*
+UI - ECK
+code - model
+
+Bundle switcher
+Bundle Copy
+
+If you build your own entity - registry rebuild to fix errors.
+
+Drush entity
+Entity autocomplete
+auto entity label ANT for entities
+view mode modal
+taxonomy entity index
+entity dependency API
+
+*Fields*
+
+Fieldable fields
+Field collection
+-Field collection table
+-Field collection views
+Field group
+Field reference
+Field formatter settings
+Field permissions
+Field validation
+Field Tools
+-Manipulate and work with fields.
+Formatter field
+-Formats entity instances differently.
+
+*What is a node?*
+
+fields
+view modes
+access control
+revisions
+menu items
+
+
+*Everything can be like a node*
+Title
+
+Renderable elements
+Dynamic properties
+-creates field like properties
+
+Entity path
+-Adds path to entities
+
+Entity Access API
+Access Control kit
+
+Entity view modes
+-Adds view modes to entities
+
+*Caveat Emptor*
+
+Evaluate any and all modules in this presentation.
