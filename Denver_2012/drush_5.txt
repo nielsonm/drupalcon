@@ -1,0 +1,43 @@
+Drush 5: Mile High Productivity
+moshe, jhed, msonnabaum, owen wilson
+
+Drush shell aliases
+
+'noncore' => 'pm-list --no-core'
+
+'pull' => '!git pull && drush updb'
+
+
+Aliases go in the drushrc.
+
+Drusrc can be site specific or server wide.
+
+aliases look like git aliases.
+
+Unavailable options now has an error handling.
+
+Square brackets are optional and '<option>' are mandatory.
+
+Windows compatible now, MS sponsored .msi
+
+Usage tracking, anonymized args.  Usage-send, usage-show
+
+Drush make is a package manager for drush.
+
+More testing and refactored, using pm download.
+
+Drush caching - rebuilds much, much faster.
+
+Concurrent Downloads - only limited by bandwidth.
+
+Tab completion - commands and aliases,  now contextual
+-drush en v<TAB><TAB> now returns views, views ui, etc.
+
+drush.complete.sh is where the tab completion is located.
+
+
+
+
+
+
+
