@@ -1,7 +1,7 @@
 Drush 5: Mile High Productivity
 moshe, jhed, msonnabaum, owen wilson
 
-Drush shell aliases
+*Drush shell aliases*
 
 'noncore' => 'pm-list --no-core'
 
@@ -22,6 +22,7 @@ Windows compatible now, MS sponsored .msi
 
 Usage tracking, anonymized args.  Usage-send, usage-show
 
+*Drush make*
 Drush make is a package manager for drush.
 
 More testing and refactored, using pm download.
@@ -30,14 +31,29 @@ Drush caching - rebuilds much, much faster.
 
 Concurrent Downloads - only limited by bandwidth.
 
+*Bash completion*
 Tab completion - commands and aliases,  now contextual
 -drush en v<TAB><TAB> now returns views, views ui, etc.
 
 drush.complete.sh is where the tab completion is located.
 
+Drush run server runs servers independent of apache.
+-Only for dev purposes.
 
+drush qd
+-Quick site install -sql-lite in site directory
+-works for distros too.
+-not replacing drush make
 
+*Drush queue API*
 
+queue runner
 
+drush queue-list
+
+drush queue-run aggregator feeds
+
+*Persistent site settings*
+drush site-set sitename.dev
 
 
