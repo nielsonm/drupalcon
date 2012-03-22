@@ -1,2 +1,138 @@
 Drupal Commerce contrib modules overview
 pcambra - Commerce Guys
+
+Powering truly flexible commerce.
+
+*About this presentation*
+
+Which modules are ready to use now.
+
+Where to find the best modules.
+
+*The Essentials*
+
+Commerce is a framework with many core features.
+
+Shipping is a commerce contrib.
+-Plugable and extendable
+
+Stock is another contrib module that controls stock numbers.
+-Rules based so it's extendable
+
+*Import/Export*
+
+Commerce Feeds
+-Import products and customer profiles
+
+Commerce Migrate
+Features
+-support for line item types, product types, and customer profiles
+Commerce XML
+-export products in xml
+
+*Physical Products*
+Commerce physical
+-Extends physical field to supply dimensions and weight attribs
+
+*Non-physical Products*
+Commerce File
+-Sells file access, has limits to time or number of downloads
+--There's a Commerce downloads install profile, ala commerce kickstart
+Commerce Product Key
+-Assigns product keys to users or vouchers.
+Commerce credits
+-Users buy or win credits that may expire.
+Commerce userpoints
+-Bridges userpoints and commerce to allow users to use userpoints to pay for products.
+
+*Managing Subscriptions*
+Commerce subscription supplies
+-A subscription for access to an entity type to sell roles and get payments via PayPal.
+Commerce subscription products
+-Sell subscriptions as products.
+
+*Checkout*
+
+Commerce Fieldgroup panes
+-Uses fieldgroup to add additional fields and exposes data to views, objects.
+--Used in drupal association website to request d.o. username, in registration.
+
+Commerce extra panes
+-expose nodes as checkout panes
+
+Commerce checkout login
+-Extends the login form.
+Commerce checkout progress
+-Adds block to show user which page the user is located in the checkout process.
+
+Commerce checkout pages
+-Creates pages to checkout panes ui the UI.
+
+*Payment*
+
+Too many modules to note.  Paypal, Authorize.net, Ogone to manual payment methods.
+
+*Product management*
+
+Commerce product display manager
+-Simplifies the product - product display relationship as a drag and drop
+
+Commerce inline product
+-Still in sandbox, but will create product as part of a product display.
+
+Commerce bulk product
+-Create products in bulk.
+
+Commerce VBO
+-Manage products in bulk.
+
+*Pricing*
+
+Commerce price table
+-Price and quantity are calculated in a table.
+
+Commerce multicurrency
+-Automatic rate exchange
+
+Extra Price
+-retail pricing, no decimals.
+
+Commerce Price History
+-plots the price fluctuations
+
+*Invoicing*
+
+4 modules with different scopes.
+
+*Utilities*
+
+Commerce Addressbook
+-Uses previously entered addresses.
+
+Commerce Coupon
+-Coupon line items, mass generation.
+
+Commerce cart ajax
+-Ajaxifies remove and add quantity.
+
+Commerce reorder
+-Copies a previous order into the cart.
+
+Commerce email
+-Edits Commerce emails sent to user.
+
+Commerce Wishlist
+-Self explanatory
+
+*Other*
+
+Commerce autosku
+Commerce minimum and maximum
+Commerce devel
+Commerce GA
+
+*Install profiles and distros*
+
+Commerce kickstart
+
+MartPlug - distro using omega
