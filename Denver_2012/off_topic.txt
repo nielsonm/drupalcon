@@ -4,6 +4,7 @@ The keynote looks mediocre, it covers ____, skipping it for ___.
 Which session are you going to?
 What's for breakfast?
 The DrupalCon Party was brought to a sudden halt when ___.
+Hangover keynote was presented about __ by __.
 
 
 
@@ -18,6 +19,7 @@ Overpriced meals
 Generate client value
 Twitter spam on #DrupalCon
 Overly technical questions in Q and A.
+Generic "What would you do" questions.
 
 
 Commerce
